@@ -1,11 +1,15 @@
 import Cybrom from "./Cybrom";
-  const App=()=>{
-  <>
-   <Cybrom/>
-    </>
-  }
- export default App;
 
+const App=()=>{
+  return(
+   <>
+   <h1>hello every one how are you</h1>
+   <Cybrom/>
+   </>
+  )
+ }
+
+export default App;
 
 //  const App=()=>{
 //   return(

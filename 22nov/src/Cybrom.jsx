@@ -1,7 +1,12 @@
-const Cybroms=()=>{
+
+const Cybrom=()=>{
     return(
-        <h1>I am Pawan Pathariya</h1>
+    
+      <>
+      <h1>we are cybrom student</h1>
+      </>
+
+
     )
 }
-
-export default Cybroms;
+export default Cybrom;
