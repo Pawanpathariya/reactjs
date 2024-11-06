@@ -11,7 +11,7 @@ const Layout=()=>{
 
         <Outlet></Outlet>
         <hr size="4" color="red" />
-        www.PawanPathariya.com
+        www.Pawanpathariya.com
         </>
     )
 }
