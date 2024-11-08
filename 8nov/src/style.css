@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+}
+table{
+    border: 2px solid black ;
+
+    th,td{
+        border: 2px solid black ;
+        padding: 20px;
+    }
+
+    font-size: 40px;
+}
