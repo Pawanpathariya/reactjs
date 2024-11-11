@@ -1,0 +1,19 @@
+body{
+background-color: aqua;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; 
+}
+.popat{
+    justify-content: space-between;
+    width: 400px;
+    text-align: center;
+    background-color: brown;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+    box-shadow: 5px 5px 3px rgb(21, 12, 1);
+}
