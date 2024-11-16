@@ -6,7 +6,7 @@
 // const display=()=>{
 //   setCity("Indore");
 // }
-//   return(
+//   return( 
 //     <>
 // <h1>I am from {city}</h1>
 // <button onClick={display}>Click here</button>
