@@ -1,0 +1,41 @@
+{
+    "Student":[
+        {
+    "rollno":121,
+    "name":"Pawan",
+    "city":"Bhopal",
+    "fees":25000
+    },
+        {
+    "rollno":122,
+    "name":"Naman",
+    "city":"Bhopal",
+    "fees":125000
+    },
+        {
+    "rollno":123,
+    "name":"Gagan",
+    "city":"Indore",
+    "fees":35000
+    },
+        {
+    "rollno":124,
+    "name":"Sumit",
+    "city":"Sehore",
+    "fees":25000
+    },
+        {
+    "rollno":125,
+    "name":"Ayush",
+    "city":"Bhopal",
+    "fees":45000
+    },
+        {
+    "rollno":126,
+    "name":"Shubhash",
+    "city":"Bhopal",
+    "fees":50000
+    }
+
+]
+}
