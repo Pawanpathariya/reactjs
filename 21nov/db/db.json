@@ -1,0 +1,53 @@
+{
+  "Student": [
+    {
+      "rollno": 121,
+      "name": "Pawan",
+      "city": "Bhopal",
+      "fees": 25000,
+      "id": "d5d0"
+    },
+    {
+      "rollno": 122,
+      "name": "Naman",
+      "city": "Bhopal",
+      "fees": 125000,
+      "id": "9e55"
+    },
+    {
+      "rollno": 123,
+      "name": "Gagan",
+      "city": "Indore",
+      "fees": 35000,
+      "id": "0cfe"
+    },
+    {
+      "rollno": 124,
+      "name": "Sumit",
+      "city": "Sehore",
+      "fees": 25000,
+      "id": "8799"
+    },
+    {
+      "rollno": 125,
+      "name": "Ayush",
+      "city": "Bhopal",
+      "fees": 45000,
+      "id": "21e5"
+    },
+    {
+      "rollno": 126,
+      "name": "Shubhash",
+      "city": "Bhopal",
+      "fees": 50000,
+      "id": "a67a"
+    },
+    {
+      "id": "491e",
+      "rollno": "126",
+      "name": "Pawan pathariya ",
+      "city": "Bhopal",
+      "fees": "6600"
+    }
+  ]
+}
