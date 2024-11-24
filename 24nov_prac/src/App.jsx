@@ -1,17 +1,16 @@
-import { createContext } from "react";
 import Comp1 from "./Comp1";
-const mycontext=createContext();
+import { useState,createContext } from "react";
+const mycon=createContext();
 const App=()=>{
-  const name="Pawan";
+  const [name,setname]=useState("Pawan")
   return(
     <>
-    <h1>My name is {name}</h1>
-    <mycontext.Provider value={{name}}>
-
+    <h1>Hello {name}</h1>
+    <mycon.Provider value={{name}}>
       <Comp1/>
-    </mycontext.Provider>
+    </mycon.Provider>
     </>
   )
 }
 export default App;
-export {mycontext};
+export {mycon}

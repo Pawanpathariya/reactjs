@@ -1,10 +1,9 @@
-import { useContext } from "react";
-import { mycontext } from "./App";
+import Comp2 from "./Comp2";
 const Comp1=()=>{
-    const {name}=useContext(mycontext);
     return(
         <>
-        <h1>hello {name}</h1>
+        <h1>Comp 1</h1>
+        <Comp2/>
         </>
     )
 }
