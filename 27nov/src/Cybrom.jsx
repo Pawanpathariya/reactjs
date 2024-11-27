@@ -1,12 +1,16 @@
 import { useContext } from "react";
 import { mycon } from "./UserCom";
 const Cybrom=()=>{
-    const {name,setname}=useContext(mycon)
+    const {cnt,setcnt}=useContext(mycon)
     return(
         <>
-        <h1>{name} from Cybrom</h1>
-
-        <button onClick={()=>{setname("Sumit")}}>Change</button>
+        <button onClick={()=>{setcnt(cnt+1)}}>Increment</button>
+        <h1>{cnt}</h1>
+        <button onClick={()=>{
+            if(cnt>=1){setcnt(cnt-1)} 
+        else{alert("Not less then 0 available")}
+        }}>Decrement</button>
+        <button onClick={()=>{setcnt(0)}}>Reset</button>
         </>
     )
 }

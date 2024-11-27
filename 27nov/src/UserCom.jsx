@@ -2,10 +2,10 @@ import { useState,createContext } from "react";
 const mycon=createContext();
 
 const UserCom=({children})=>{
-    const [name,setname]=useState("Pawan")
+    const [cnt,setcnt]=useState(0)
     return(
         <>
-        <mycon.Provider value={{name,setname}}>
+        <mycon.Provider value={{cnt,setcnt}}>
      {children}
 
         </mycon.Provider>
