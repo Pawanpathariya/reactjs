@@ -1,0 +1,25 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "name": "John",
+      "price": 500,
+      "publish_year": 2022,
+      "author_name": "John Doe"
+    },
+    {
+      "id": "ca71",
+      "name": "shennu",
+      "price": "1450",
+      "author_name": "sanjay",
+      "publish_year": 2050
+    },
+    {
+      "id": "1e87",
+      "name": "java",
+      "price": "1200",
+      "author_name": "pawan",
+      "publish_year": "2024"
+    }
+  ]
+}
