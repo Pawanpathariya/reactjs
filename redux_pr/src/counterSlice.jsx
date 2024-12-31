@@ -16,8 +16,11 @@ export const counterSlice = createSlice({
             else{
                alert("count can not be less than 0")
             }
+        },
+        reset: (state) => {
+            state.count = 0
         }
-        }
+    }
     });
     export default counterSlice.reducer;
-    export const { increment, decrement } = counterSlice.actions;
+    export const { increment, decrement ,reset} = counterSlice.actions;
