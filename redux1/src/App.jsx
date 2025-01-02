@@ -1,18 +1,16 @@
-import { useSelector, useDispatch } from "react-redux"
-import { changecolor } from "./colorSlice"
+import { useSelector,useDispatch } from "react-redux"
+import { changeColor } from "./colorSlice"
 import { useState } from "react"
 const App=()=>{
+  const [colo,setcolo]=useState("");
+  const cl=useSelector(state=>state.myclr.cl)
   const dispatch=useDispatch()
-  const cl=useSelector(state=>state.mycolor.cl)
-  const [cl1, setcl1]=useState("");
   return(
     <>
     <h1>Hello</h1>
-
-    <div style={{width:"300px", height:"300px",backgroundColor:cl}}></div>
+    <div style={{width:"300px",height:"200px",backgroundColor:cl}}></div>
     <br />
-    <input type="text" value={cl1} onChange={(e)=>setcl1(e.target.value)} />
-    <button onClick={()=>dispatch(changecolor({color:cl1}))}>Change</button>
+Type color : <input type="text" value={colo} onChange={(e)=>setcolo(e.target.value)} /> <button onClick={()=>dispatch(changeColor(colo))}>Change</button>
     </>
   )
 }

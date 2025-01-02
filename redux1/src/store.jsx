@@ -2,9 +2,8 @@ import { configureStore } from "@reduxjs/toolkit";
 import colorSlice from "./colorSlice";
 const store=configureStore({
     reducer:{
-    mycolor:colorSlice
+    myclr:colorSlice
     }
-    
 })
 
-export default store;
+export default store
