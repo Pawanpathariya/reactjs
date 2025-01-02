@@ -4,7 +4,7 @@ const colorSlice=createSlice(
     {
 name:"bcolor",
 initialState:{
-    cl:"red"
+    cl:"aqua"
 },
 reducers:{
     changecolor:(state,action)=>{
